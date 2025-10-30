@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AzizCure.Com</title>
+
+    <!-- Favicon - Multiple Sizes for Different Devices -->
+    <link rel="icon" type="image/x-icon" href="fevicon/favicon.ico?v=2" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fevicon/favicon-16x16.png?v=2"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fevicon/favicon-32x32.png?v=2"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="fevicon/android-chrome-192x192.png?v=2"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="fevicon/android-chrome-512x512.png?v=2"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fevicon/apple-touch-icon.png?v=2"
+    />
+    <link rel="manifest" href="fevicon/site.webmanifest?v=2" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <i class="fa-solid fa-bars"></i>
+          <img src="favicon-32x32.png" alt="logo" />
+          <p>AzizCure<span>.com</span></p>
+        </div>
+        <div class="nav">
+          <nav>
+            <a href="#men-section">Men</a>
+            <a href="#women-section">Women</a>
+            <a href="#kids-section">Kids</a>
+            <a href="#grocery-section">Grocery</a>
+            <a href="#gadgets-section">Gadgets <sup>NEW</sup></a>
+          </nav>
+        </div>
+        <div class="login">
+          <i class="fa-solid fa-user-plus" class="Signup" id="signup-fun"></i>
+         <div class="picture"><img class="Signup" id="login-fun" src="new.jpg" alt=""></i></div>
+        </div>
+      </div>
+      <div class="humberger">
+        <i class="fa-solid fa-xmark"></i>
+        <div class="AncherLink">
+          <a href="#men-section">Men</a>
+          <a href="#women-section">Women</a>
+          <a href="#kids-section">Kids</a>
+          <a href="#grocery-section">Grocery</a>
+          <a href="#gadgets-section">Gadgets <sup>NEW</sup></a>
+        </div>
+      </div>
+      <!-- Login Modal Popup -->
+      <div class="modal-overlay" id="loginModal">
+        <div class="maincontainer">
+          <div class="first">
+            <div class="gmail" id="login-gmail">
+              <input
+                class="text"
+                id="mobile"
+                placeholder="Enter Your Gmail or Mobile number"
+              />
+            </div>
+            <div class="pass" id="login-pass">
+              <input type="text" id="password" placeholder="Enter username" />
+            </div>
+            <div class="profilePicture">
+              <p>Upload Your Profile Picture</p>
+              <input class="submit" type="file" accept="image/*">
+              <button class="submit">Delete</button>
+            </div>
+            <button class="submit">Login</button>
+            
+            <p>
+              Don't Have An Account <a class="singn-log" href="#">Sign in</a>
+            </p>
+          </div>
+          <div class="secend">
+            <i class="fa-solid fa-xmark" id="closeModal"></i>
+          </div>
+        </div>
+      </div>
+      <!-- sign up model -->
+      <div class="modal-overlay" id="signupModal">
+        <div class="maincontainer">
+          <div class="first">
+            <div class="gmail" id="signupUsername">
+              <input
+                class="text"
+                id="mobile"
+                placeholder="Enter Your username"
+              />
+            </div>
+          
+            <div class="gmail" id="signupGmail">
+              <input
+                class="text"
+                id="mobile"
+                placeholder="Enter Your Gmail or Mobile number"
+              />
+            </div>
+            <div class="pass" id="passwordGmain">
+              <input
+                type="input"
+                id="password"
+                placeholder="Enter 6 digit-OTP "
+              />
+            </div>
+            <div class="profilePicture">
+              <p>Upload Your Profile Picture</p>
+              <input class="submit" type="file" accept="image/*">
+            <button class="submit">Sign Up</button>
+            <button class="submit" id="get-otp">Get OTP</button>
+            <p>
+              Already Have An Account
+              <a class="singn-log" href="#" id="ancharLog">Login</a>
+            </p>
+          </div>
+          <div class="secend">
+            <i class="fa-solid fa-xmark" id="closeModal"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="sliderContainer">
+        <div class="myslide">
+          <img src="images/head/img1.webp" alt="">
+        </div>
+
+        <div class="myslide">
+          <img src="images/head/img2.webp" alt="">
+        </div>
+
+        <div class="myslide">
+          <img src="images/head/img3.webp" alt="">
+        </div>
+
+        <div class="myslide">
+          <img src="images/head/img4.webp" alt="">
+        </div>
+
+        <div class="myslide">
+          <img src="images/head/img5.webp" alt="">
+        </div>
+
+
+
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+
+        
+      </div>
+
+      <div class="slidebarmenu">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+      </div>
+     <h4 class="men" id="men-section">Men Collection</h4>
+      <div class="mensAll">
+        
+      </div>
+
+      <h4 class="men" id="women-section">Women Collection</h4>
+      <div class="mensAll" id="women">
+        
+      </div>
+    </main>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
